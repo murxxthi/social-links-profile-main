@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color:rgb(20, 20, 20);
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+}
+
+.profile-card{
+    background-color: rgb(31, 31, 31);
+    padding: 40px;
+    width: 304px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.profile-card img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;  
+}
+
+.location{
+    color: rgb(197, 248,42);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profile-card nav{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile-card nav a{
+    background-color: rgb(51,51,51);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.profile-card h1{
+    font-size: 24px;
+}
+
+.bio{
+    font-size: 14px;
+}
+
+.profile-card nav a:hover,
+.profile-card nav a:focus-visible {
+  background-color: rgb(197, 248, 42);
+  color: rgb(20, 20, 20);
+}
